@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Bubbler+One&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Tammudu 2', cursive;s;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100%;
+    background-color: #242625  ;
+    color: #fff ;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+padding: 2em;
+}
+ .brand{
+    margin-top: -7px;
+ }
+.brand span {
+color: #2FCE2F ;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+}
+ 
+.menu .active{
+    color:#22E638  ;
+}
+.menu a:hover {
+    background-color:#2FCE2F  ;
+    color:black;
+    border: none;
+    border-radius: 50px;
+    transition: ease-in .1s;
+}
+ 
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+ 
+  
+
+}
+h1 {
+    font-size: 2em;
+}
+
+ 
+ span {
+    color: #22E638  ;
+ }
+
+
+ .descargarcv {
+   padding: 10px 20px;
+   background-color: grey;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+   
+ }
+
+ .descargarcv:hover {
+background-color: #22E638;
+ }
