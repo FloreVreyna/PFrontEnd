@@ -33,7 +33,7 @@ z-index: 1;
         position: absolute;
         top: 100px ;
         left: 0;
-        background-image: url(file:///C:/Users/Sergio/Documents/YoProgramo/laye2.svg);
+        background-image: url('http://192.168.100.3:8080/laye2.svg');
     
         
     }
