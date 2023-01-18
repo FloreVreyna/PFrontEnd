@@ -1,2 +1,2 @@
-# PFrondEnd
-repositorio para el frondend
+# PFrontEnd
+repositorio para el frontend
